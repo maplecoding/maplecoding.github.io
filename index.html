@@ -10,11 +10,11 @@
     <meta name="description" content="Expert IT consulting, solutions architecture, and software engineering services. Over 20 years of experience delivering scalable enterprise systems in Surrey, BC.">
     <meta name="keywords" content="IT Consulting, Solutions Architecture, Software Engineering, Web Development, Technical Leadership, Python, C#, .NET, React, Surrey, British Columbia">
     <meta name="author" content="Sekhon Consultants Ltd.">
-    <link rel="canonical" href="https://www.sekhonsolutions.com/">
+    <link rel="canonical" href="https://www.maplecoding.com/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.sekhonsolutions.com/">
+    <meta property="og:url" content="https://www.maplecoding.com/">
     <meta property="og:title" content="Sekhon Consultants Ltd.">
     <meta property="og:description" content="Expert IT consulting, solutions architecture, and software engineering services. Over 20 years of experience delivering scalable enterprise systems.">
     
@@ -203,12 +203,15 @@
                 </address>
                 
                 <div class="mt-24 md:mt-0 text-sm font-light text-slate-500 text-left md:text-right">
-                    &copy; 2026 Sekhon Consultants Ltd.<br />
+                    &copy; <span id="current-year"></span> Sekhon Consultants Ltd.<br />
                     All rights reserved.
                 </div>
             </div>
         </div>
     </footer>
-
+    <script>
+        // Set dynamic copyright year
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
